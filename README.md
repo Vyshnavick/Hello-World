@@ -1,19 +1,34 @@
-<html>
-<head>
-    <meta charSet="utf-8">
-    <title>Hello world</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.0-rc.0/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@17.0.0-rc.0/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js">
-    </script>
-</head>
-<body>
-<div id="app"></div>
-<script type="text/babel">
-    ReactDOM.render(
-        <h1>Hello World</h1>,
-        document.getElementById('app')
-    );
-</script>
-</body>
-</html>
+{
+  "name": "hello-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
